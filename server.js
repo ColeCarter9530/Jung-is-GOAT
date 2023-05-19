@@ -8,6 +8,6 @@ app.use(controllers);
 
 sequelize.sync({}).then(() => {
     app.listen(PORT, () => {
-        console.log('this is my console log, there are many others like it, but this one is mine.');
+        console.log('THIS IS MY CONSOLE LOG, THERE ARE MANY LIKE IT, BUT THIS ONE IS MINE.');
     });
 });
