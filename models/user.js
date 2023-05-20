@@ -5,7 +5,8 @@ class User extends Model {
 
 }
 
-User.init({
+User.init(
+    {
     id: {
         type: DataTypes.INTEGER,
         allowNull: false,
@@ -27,7 +28,7 @@ User.init({
         type: DataTypes.STRING,
         allowNull: false,
         validate: {
-            isEmali: true
+            isEmail: true
         }
     }
 }, {
