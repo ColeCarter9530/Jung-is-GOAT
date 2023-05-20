@@ -16,7 +16,7 @@ Stroke.init({
     },
     videoUrl: {
         type: DataTypes.STRING,
-        allowNull: True
+        allowNull: true
     },
     userId: {
         type: DataTypes.INTEGER,
