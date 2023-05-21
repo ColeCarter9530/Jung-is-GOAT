@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3001;
 const app = express();
 
 // to access the public folder
-app.use(express.static('public'));
+app.use(express.static(__dirname + '/public'));
 
 // to use Handlebars (plus line 4)
 const hbs = exphbs.create({});
